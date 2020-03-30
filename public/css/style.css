@@ -845,7 +845,9 @@ h4 {
     width: 100%;
     border: 0;
 }
-
+.img-responsive {
+    width: 100%;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
