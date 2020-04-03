@@ -1,12 +1,27 @@
-<!doctype html>
-<html lang="fr">
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="fr">
 	<head>
 	    <meta charset="utf-8">
 	    <meta name="description" content="Envie d'en savoir plus ? Contactez-nous !">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 		<meta name="google-site-verification" content="_cJvVyIPZ88w9ryqzixtNrMEVdy81cxcGSmjdqBnitA" />
 
-	    <link rel="shortcut icon" type="image/png" href="../img/favicon.jpg">
+		<!--TwitterCard-->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:creator" content="@lachouetteagence">
+		<meta name="twitter:image:alt" content="une chouette en logo">
+		<!--TwitterCard END-->
+
+		<!--OpenGraph-->
+		<meta property="og:url" content="https://fsiguret.github.io/La-Chouette-Agence">
+		<meta property="og:title" content="La Chouette Agence - Entreprise de Web Design à Lyon">
+		<meta property="og:description" content="La chouette agence est une agence de web design à Lyon qui aide les entreprises à devenir attractives et visibles sur Internet.">
+		<meta property="og:image" content="public/img/logo.webp">
+		<meta property="og:image:alt" content="une chouette en logo">
+		<meta property="og:locale" content="fr_FR">
+		<!--OpenGraph END-->
+
+	    <link rel="shortcut icon" type="image/png" href="../img/favicon.webp">
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
@@ -15,12 +30,11 @@
 	    <title>Contactez-Nous - La chouette agence</title>
 	</head>
 	<body class="page-container">
-		<!-- bloc-0 -->
-		<header class="bloc bgc-white l-bloc " id="bloc-0">
+		<header class="bloc bgc-white l-bloc ">
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="../../index.html"><img class="navbar-logo" src="../img/la-chouette-agence.png" alt="une chouette et le nom de l'entreprise"/></a>
+						<a class="navbar-brand" href="../../index.html"><img class="navbar-logo" src="../img/la-chouette-agence.webp" alt="une chouette et le nom de l'entreprise"/></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
@@ -35,10 +49,8 @@
 				</nav>
 			</div>
 		</header>
-		<!-- bloc-0 END -->
 		<main>
-			<!-- bloc-6 -->
-			<article class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+			<article class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper">
 				<div class="container bloc-lg">
 						<div class="col-sm-12">
 							<h1 class="text-center hero-bloc-text white">
@@ -51,9 +63,8 @@
 						</div>
 				</div>
 			</article>
-			<!-- bloc-6 END -->
-			<!-- bloc-7 -->
-			<aside class="bloc bgc-white l-bloc" id="bloc-7">
+			<!-- FORM -->
+			<aside class="bloc bgc-white l-bloc">
 				<div class="container bloc-lg">
 					<div class="row">
 						<div class="col-sm-6">
@@ -96,12 +107,12 @@
 					</div>
 				</div>
 			</aside>
-			<!-- bloc-7 END -->
+			<!-- FORM END -->
 		</main>
 
 
-		<!-- Footer - bloc-8 -->
-		<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<!-- Footer -->
+		<footer class="bloc bgc-atomic-tangerine d-bloc">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
@@ -111,22 +122,22 @@
 						<aside class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="../../index.html"><span class="fa fa-twitter icon-md"></span>Twitter</a>
+									<a class="social" href="https://www.facebook.com/"><span class="fa fa-twitter icon-md"></span>Twitter</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="../../index.html"><span class="fa fa-facebook icon-md"></span>Facebook</a>
+									<a class="social" href="https://twitter.com"><span class="fa fa-facebook icon-md"></span>Facebook</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="../../index.html"><span class="fa fa-dribbble icon-md"></span>Dribbble</a>
+									<a class="social" href="https://dribbble.com"><span class="fa fa-dribbble icon-md"></span>Dribbble</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="../../index.html"><span class="fa fa-instagram icon-md"></span>Instagram</a>
+									<a class="social" href="https://www.instagram.com"><span class="fa fa-instagram icon-md"></span>Instagram</a>
 								</div>
 							</div>
 						</aside>
@@ -134,7 +145,11 @@
 				</div>
 			</div>
 		</footer>
-	<!-- Footer - bloc-8 END -->
+		<!-- Footer END -->
+		<!-- ScrollToTop Button -->
+		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+		<!-- ScrollToTop Button END-->
+
 		<script src="../js/jquery-2.1.0.min.js"></script>
 		<script src="../js/bootstrap.min.js"></script>
 		<script src="../js/blocs.min.js"></script>
