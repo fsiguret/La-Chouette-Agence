@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <sitemap>
-        <loc>https://fsiguret.github.io/La-Chouette-Agence/Sitemap/sitemap.xml</loc>
+        <loc>https://fsiguret.github.io/La-Chouette-Agence/sitemap/sitemap.xml</loc>
         <lastmod>2020-04-03</lastmod>
 
     </sitemap>
     <sitemap>
-        <loc>https://fsiguret.github.io/La-Chouette-Agence/Sitemap/sitemap-image.xml</loc>
+        <loc>https://fsiguret.github.io/La-Chouette-Agence/sitemap/sitemap-image.xml</loc>
         <lastmod>2020-04-03</lastmod>
     </sitemap>
 </sitemapindex>
