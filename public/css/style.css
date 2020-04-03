@@ -759,7 +759,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.51);
     padding: 40px 40px 40px 40px;
 }
 
@@ -833,6 +833,8 @@ h4 {
 
 .image-resize-mode {
     width: 100px;
+    border: #FFFFFF solid 2px;
+    border-radius: 50%;
 }
 
 .icon-md {
