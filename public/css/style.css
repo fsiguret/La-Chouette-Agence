@@ -498,6 +498,7 @@ button {
 }
 
 .scrollToTop {
+    border: #FFFFFF solid 1px;
     width: 40px;
     height: 40px;
     position: fixed;
@@ -516,6 +517,9 @@ button {
     opacity: 1;
 }
 
+.fa-chevron-up {
+    color: #FFFFFF;
+}
 a[data-lightbox] {
     position: relative;
     display: block;
