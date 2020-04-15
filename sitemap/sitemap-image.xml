@@ -4,25 +4,28 @@
     <url>
         <loc>https://fsiguret.github.io/La-Chouette-Agence/</loc>
         <image:image>
-            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/accessoires-photo.webp</image:loc>
+            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/accessoires-photo.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/la-chouette-agence-banniere.webp</image:loc>
+            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/la-chouette-agence-banniere.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/la-chouette-agence.webp</image:loc>
+            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/la-chouette-agence.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/image-de-presentation.webp</image:loc>
+            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/image-de-presentation.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/livres.webp</image:loc>
+            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/livres.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/photographe.webp</image:loc>
+            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/photographe.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/table-work.webp</image:loc>
+            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/table-work.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://fsiguret.github.io/La-Chouette-Agence/public/img/logo.png</image:loc>
         </image:image>
     </url>
 </urlset>
